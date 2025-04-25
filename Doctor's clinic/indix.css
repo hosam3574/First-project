@@ -1,0 +1,55 @@
+body{
+    background-color: 
+}
+
+
+
+.heder{
+    display: flex;
+}
+
+
+.hitphone{
+    margin-left: 90px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.links{
+    margin-top: 40px;
+    margin-left: 40%;
+  
+}
+
+.links>a{
+    direction: none ;
+    color:rgba(0, 0, 0, 0.712) ;
+    text-decoration: none;
+}
+
+
+.linktoo{
+    margin-left: 90px;
+
+}
+
+.bookbutton{
+    
+    margin-left: 90px;
+    border-radius: 70px;
+    border: 5px;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    text-align: center;
+    height: 50px;
+    width:250px;
+}
+
+/* بدي ابلش عند يا مرحبا دكتور */
+
+
+.introduction{
+    margin-left: 90px;
+    margin-top: 160px;
+}
