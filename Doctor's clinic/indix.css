@@ -69,6 +69,117 @@ body{
     margin-left: 40%;
     margin-top: -350px;
 
-height: 1500px;
-width: 500px;
+
 }
+
+.imgo{
+height: 500px;
+width: 800px;
+}
+
+/* بلشت هون بلشريط الازرق */
+
+
+.buttons{
+    display: flex;
+    background-color: rgb(0, 132, 255) ;
+    margin-left: ;
+}
+.button1{
+    margin-left: 30px;
+    border-color: rgb(255, 255, 255);
+    border: 60px;
+    border-radius:10px;
+    height: 30px;
+    width: 290px;
+    text-align: center;
+    margin-top: 25px;
+    background-color:rgb(0, 132, 255)  ;
+    color: white;
+    border-color: whitesmoke;
+    font-size: 20px;
+}
+.button2{
+
+    margin-left: 30px;
+    border-color: rgb(255, 255, 255);
+    border: 60px;
+    border-radius:10px;
+    height: 30px;
+    width: 290px;
+    text-align: center;
+    margin-top: 25px;
+    background-color:rgb(0, 132, 255)  ;
+    color: white;
+    border-color: whitesmoke;
+
+    font-size: 20px;
+}
+
+
+
+.button3{
+    margin-left: 30px;
+    border-color: rgb(255, 255, 255);
+    border: 60px;
+    border-radius:10px;
+    height: 30px;
+    width: 290px;
+    text-align: center;
+    margin-top: 25px;
+    background-color:rgb(0, 132, 255)  ;
+    color: white;
+    border-color: whitesmoke;
+    font-size: 20px;
+}
+
+
+
+/*  هون رح ابلش بلخدمات يلي بتقدمها العيادة */
+
+
+.service{
+    margin-left: 40%;
+}
+
+
+.services{
+    display: flex; 
+    margin-left: 250px;
+}
+
+
+.service1{
+    background-color: white;
+    margin-left: 80px;
+    border-color: white;
+}
+
+
+.service1>img{
+    width: 100px;
+    border-radius: 60px;
+    z-index: 0;
+    margin-top: -30px;                    /*  ملاجظة انو لازم اغير صور الخدمات   */
+}
+
+
+.service2{
+
+    background-color:rgb(0, 132, 255) ;
+
+margin-left: 60px;
+border-radius: 10px;
+    }
+
+    .service2>img{
+        width: 100px;
+        border-radius: 60px;
+    border-color:rgb(0, 132, 255) ;
+    z-index: 0;
+    margin-top: -30px;
+
+    }
+
+
+   
