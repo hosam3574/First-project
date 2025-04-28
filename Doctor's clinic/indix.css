@@ -238,4 +238,10 @@ z-index: 1;
     width: 1500px;
     height: 150px;
     align-items: center;
+    
+}
+
+.form{
+    margin-left: 40px;
+    font-size: 30px;
 }
