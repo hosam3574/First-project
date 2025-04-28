@@ -1,5 +1,5 @@
 body{
-    background-color: 
+    
 }
 
 
@@ -182,4 +182,60 @@ border-radius: 10px;
     }
 
 
-   
+   /*هون بدي احط صور الشغيلة */
+
+.teams{
+
+display: flex;
+background-color: white;
+margin-left: 300px;
+
+}
+
+
+.team1>img{
+
+width: 250px;
+height: 250px;
+z-index: 1;
+
+
+}
+.name1{
+    margin-left: 30px;
+}
+
+.name2{
+    margin-left: 30px;
+}
+
+.name3{
+    margin-left: 30px;
+}
+
+
+.point{
+    margin-left: 840px;
+}
+
+
+
+/* خلص بلشت بلصفحة اخريتها */
+
+
+
+
+
+
+
+.final{
+    background-color:rgb(0, 132, 255);
+    color: white;
+    margin-left:50px ;
+    border-radius: 50px;
+    border: 10px;
+    text-align: center;
+    width: 1500px;
+    height: 150px;
+    align-items: center;
+}
