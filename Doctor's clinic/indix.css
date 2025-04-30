@@ -31,6 +31,16 @@ body{
   
 }
 
+
+.links>:hover{
+    color: blue;
+}
+
+
+
+
+
+
 .links>a{
     direction: none ;
     color:rgba(0, 0, 0, 0.712) ;
@@ -221,6 +231,11 @@ z-index: 1;
 }
 
 
+/* هاذ بخص الكتابة يلي كتبتها عشان الفوائد */
+ .writer{
+    margin-left: 60px;
+ }
+
 
 /* خلص بلشت بلصفحة اخريتها */
 
@@ -275,6 +290,7 @@ background-image: url(https://img.freepik.com/free-vector/blue-abstract-backgrou
     color: aqua;
     margin-top: auto;
     align-items: center;
+    background-size: cover;
 }
 
 .right{
