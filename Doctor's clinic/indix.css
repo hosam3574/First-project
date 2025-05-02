@@ -27,7 +27,7 @@ body{
 
 .links{
     margin-top: 40px;
-    margin-left: 40%;
+    margin-left: 45%;
   
 }
 
@@ -353,5 +353,12 @@ background-image: url(https://img.freepik.com/free-vector/blue-abstract-backgrou
 }
 .baybay{
     font-size: 20px;
-    margin-left: 500px;
+    margin-left: 250px;
+}
+
+/* يلي سرقتو من القوقل */
+
+
+.third2{
+    display: flex;
 }

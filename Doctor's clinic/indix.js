@@ -6,3 +6,9 @@ function toggleInfo() {
         infoDiv.style.display = "none";
     }
 }
+
+
+
+
+
+document.querySelector("#main > div.third2")
