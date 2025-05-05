@@ -9,11 +9,13 @@ body{
 
 .heder{
     display: flex;
+    margin-left: 50px;
 }
 
 
 .hitphone{
-    margin-left: 90px;
+    
+    margin-left: 0px;
     align-items: center;
     margin-top: 40px;
     font-size: 50px;
@@ -24,13 +26,14 @@ body{
 
     margin-left: 60px;
     margin-top: -100px;
+    font-size: 30px;
 }
 
 
 
 .links{
     margin-top: 40px;
-    margin-left: 45%;
+    margin-left: 40%;
   
 }
 
@@ -58,7 +61,7 @@ body{
 
 .bookbutton{
     
-    margin-left: 50px;
+    margin-left: 200px;
     border-radius: 70px;
     border: 5px;
     color: white;
@@ -72,13 +75,13 @@ body{
 
 
 .introduction{
-    margin-left: 90px;
+    margin-left: 40px;
     margin-top: 100px;
 }
 
 .imgrsc {
 
-    background-color: white;
+   background-color: aliceblue;
     margin-left: 40%;
     margin-top: -350px;
     width: 500px;
@@ -89,6 +92,7 @@ body{
 .imgo{
 height: 500px;
 width: 800px;
+margin-left:40px ;
 }
 
  /*بلشت هون بلشريط الازرق */
@@ -102,9 +106,9 @@ width: 800px;
 .button1{
     margin-left: 30px;
     border-color: rgb(255, 255, 255);
-    border: 60px;
+    border: 80px;
     border-radius:10px;
-    height: 30px;
+    height: 20px;
     width: 290px;
     text-align: center;
     margin-top: 25px;
@@ -147,4 +151,142 @@ width: 800px;
     font-size: 20px;
 }
 
+/*
+/*  Responsive Design  */
 
+
+/* الشاشات الصغيرة (تابلت وموبايل) 
+@media (max-width: 768px) {
+    .heder {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .hitphone {
+      margin-left: 0;
+      font-size: 30px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .Cure {
+      margin-left: 0;
+      margin-top: 0;
+      text-align: center;
+    }
+  
+    .links {
+      margin-left: 0;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .bookbutton {
+      width: 80%;
+      margin: 20px auto;
+      display: block;
+    }
+  
+    .introduction {
+      margin: 30px 20px;
+      text-align: center;
+    }
+  
+    .imgrsc {
+      margin: 20px auto;
+      width: 90%;
+      margin-top: 0;
+    }
+  
+    .imgo {
+      width: 100%;
+      height: auto;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      gap: 10px;
+    }
+  
+    .button1,
+    .button2,
+    .button3 {
+      width: 90%;
+      font-size: 18px;
+    }
+  }*/
+  
+  /* الشاشات الصغيرة جدًا (موبايل أقل من 480px) 
+  @media (max-width: 480px) {
+    .hitphone {
+      font-size: 24px;
+    }
+  
+    .bookbutton {
+      font-size: 16px;
+    }
+  
+    .button1,
+    .button2,
+    .button3 {
+      font-size: 16px;
+    }
+  
+    .introduction h1 {
+      font-size: 28px;
+    }
+  
+    .introduction p {
+      font-size: 14px;
+    }
+}*/
+  
+
+  /* الشاشات الكبيرة جداً (أكبر من 1200px) 
+@media (min-width: 1963px) {
+    .heder {
+      max-width: 1700px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+  
+    .links {
+      margin-left: auto;
+      margin-right: 50px;
+      
+    }
+  
+    .introduction {
+      max-width: 1200px;
+      margin: 100px auto 50px auto;
+      text-align: left;
+    }
+  
+    .imgrsc {
+      width: 800px;
+      margin-left:auto;
+      margin-right: auto;
+    }
+  
+    .imgo {
+      width: 800px;
+      height: 500px;
+    }
+  
+    .buttons {
+      justify-content: center;
+      gap: 40px;
+      padding: 40px;
+    }
+  
+    .button1,
+    .button2,
+    .button3 {
+      width: 300px;
+      font-size: 22px;
+    }
+  }*/
+  

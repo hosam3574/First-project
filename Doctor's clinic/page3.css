@@ -7,7 +7,7 @@ body{
 
 .backgrond{
     background-image: url(https://i.pinimg.com/736x/12/78/15/1278152927b1bd6657cc485bad1357ac.jpg) ;
-    width: 1420px;
+    width: 1400px;
     height: 850px;
     margin-left: 50px;
 }
@@ -29,13 +29,109 @@ body{
 }
 
 .form{
-    margin-left:140px;
+    margin-left:120px;
     font-size: 30px;
    z-index: 1;
    margin-top: 10px;
 }
 .doctors{
-    margin-left: 700px;
+    margin-left: 750px;
 }
 
+/* Media Queries */
 
+/* For screens larger than 1200px 
+@media (min-width: 1200px) {
+    .backgrond {
+        width: 100%;
+        height: 850px;
+        margin-left: 0;
+    }
+
+    .final {
+        width: 100%;
+        margin-left: 0;
+        height: 200px;
+    }
+
+    .form {
+        font-size: 30px;
+        margin-left: 200px;
+    }
+
+    .doctors {
+        margin-left: 700px;
+    }
+}
+*/
+/* For screens between 800px and 1200px
+@media (max-width: 1200px) and (min-width: 800px) {
+    .backgrond {
+        width: 100%;
+        height: 600px;
+        margin-left: 0;
+    }
+
+    .final {
+        width: 100%;
+        margin-left: 0;
+        height: 150px;
+    }
+
+    .form {
+        font-size: 28px;
+        margin-left: 100px;
+    }
+
+    .doctors {
+        margin-left: 300px;
+    }
+}
+
+/* For screens between 480px and 800px 
+@media (max-width: 800px) and (min-width: 480px) {
+    .backgrond {
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+    }
+
+    .final {
+        width: 100%;
+        margin-left: 0;
+        height: 100px;
+    }
+
+    .form {
+        font-size: 24px;
+        margin-left: 40px;
+    }
+
+    .doctors {
+        margin-left: 150px;
+    }
+}*/
+
+/* For screens smaller than 480px 
+@media (max-width: 480px) {
+    .backgrond {
+        width: 100%;
+        height: 300px;
+        margin-left: 0;
+    }
+
+    .final {
+        width: 100%;
+        margin-left: 0;
+        height: 80px;
+    }
+
+    .form {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .doctors {
+        margin-left: 50px;
+    }
+}*/
