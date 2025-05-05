@@ -1,0 +1,96 @@
+
+body{
+    background-color: aliceblue;
+}
+
+
+.finsh{
+    background-image: url(https://img.freepik.com/free-vector/blue-abstract-background_1393-339.jpg);
+    
+        width: 1600px;
+        height: 360px;
+        border-radius: 50px;
+        margin-left: 30px;
+        color: aqua;
+        margin-top: auto;
+        align-items: center;
+        background-size: cover;
+    }
+    
+    .right{
+        font-size: 28px;
+        margin-left: 20px;
+        margin-top: 0px;
+        
+    }
+    
+    
+    
+    .center{
+        margin-left: 630px;
+        margin-top: -250px;
+    }
+    
+    
+    /*        */
+    .informationfinal{
+        display: flex;
+    }
+    
+    .div1{
+        margin-left: 200px;
+    }
+    .div2{
+        margin-left: 200px;
+    }
+    
+    .div3{
+        margin-left: 200px;
+    }
+    
+    .div4{
+        margin-left: 200px;
+    }
+    
+    /* قاع الصفحة */
+    
+    .youtube{
+        display: flex;
+    }
+    .link1{
+        margin-left: 80px;
+        font-size: 35px;
+       
+    
+    }
+    .link2{
+        margin-left: 80px;
+        font-size: 35px;
+    }
+    .link3{
+        margin-left: 80px;
+        font-size: 35px;
+    }
+    .link4{
+        margin-left: 80px;
+        font-size: 35px;
+    }
+    .baybay{
+        font-size: 20px;
+        margin-left: 250px;
+    }
+    
+    /* يلي سرقتو من القوقل */
+    
+    
+    .third2{
+        display: flex;
+    }
+    
+    .liftthird{
+        margin-left: 48%;
+        margin-top: -1310px;
+    }
+
+
+
