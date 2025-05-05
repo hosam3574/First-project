@@ -52,13 +52,13 @@ body{
 
 
 .linktoo{
-    margin-left: 90px;
+    margin-left: 40px;
 
 }
 
 .bookbutton{
     
-    margin-left: 90px;
+    margin-left: 50px;
     border-radius: 70px;
     border: 5px;
     color: white;
@@ -68,7 +68,7 @@ body{
     width:250px;
 }
 
-/* بدي ابلش عند يا مرحبا دكتور */
+ /*بدي ابلش عند يا مرحبا دكتور */
 
 
 .introduction{
@@ -91,7 +91,7 @@ height: 500px;
 width: 800px;
 }
 
-/* بلشت هون بلشريط الازرق */
+ /*بلشت هون بلشريط الازرق */
 
 
 .buttons{
@@ -148,226 +148,3 @@ width: 800px;
 }
 
 
-
-/*  هون رح ابلش بلخدمات يلي بتقدمها العيادة 
-
-
-.service{
-    margin-left: 40%;
-}
-
-
-.services{
-    display: flex; 
-    margin-left: 250px;
-}
-
-
-.service1{
-    background-color: white;
-    margin-left: 80px;
-    border-color: white;
-}
-
-
-.service1>img{
-    width: 100px;
-    border-radius: 60px;
-    z-index: 0;
-    margin-top: -30px;     */               /*  ملاجظة انو لازم اغير صور الخدمات  
-}
-
-
-.service2{
-
-    background-color:rgb(0, 132, 255) ;
-
-margin-left: 60px;
-border-radius: 10px;
-    }
-
-    .service2>img{
-        width: 100px;
-        border-radius: 60px;
-    border-color:rgb(0, 132, 255) ;
-    z-index: 0;
-    margin-top: -30px;
-
-    } */
-
-
-   /*هون بدي احط صور الشغيلة */
-
-.teams{
-
-display: flex;
-background-color: white;
-margin-left: 300px;
-background-color: aliceblue;
-
-}
-
-
-.team1>img{
-
-width: 250px;
-height: 250px;
-z-index: 1;
-
-
-}
-.name1{
-    margin-left: 30px;
-}
-
-.name2{
-    margin-left: 30px;
-}
-
-.name3{
-    margin-left: 30px;
-}
-
-
-.point{
-    margin-left: 840px;
-}
-
-
-/* هاذ بخص الكتابة يلي كتبتها عشان الفوائد */
- .writer{
-    margin-left: 60px;
- }
-
-
-/* خلص بلشت بلصفحة اخريتها */
-
-
-.backgrond{
-    background-image: url(https://i.pinimg.com/736x/12/78/15/1278152927b1bd6657cc485bad1357ac.jpg) ;
-    width: 1520px;
-    height: 850px;
-    margin-left: 50px;
-}
-
-
-
-
-.final{
-    background-color:rgb(0, 132, 255);
-    color: white;
-    margin-left:50px ;
-    border-radius: 50px;
-    border: 10px;
-    text-align: center;
-    width: 1500px;
-    height: 150px;
-    align-items: center;
-    
-}
-
-.form{
-    margin-left:140px;
-    font-size: 30px;
-   z-index: 1;
-   margin-top: 10px;
-}
-.doctors{
-    margin-left: 700px;
-}
-
-
-
-
-/* خلص بلشت عشان احط اخر المعلومات */
-
-
-
-.finsh{
-background-image: url(https://img.freepik.com/free-vector/blue-abstract-background_1393-339.jpg);
-
-    width: 1600px;
-    height: 360px;
-    border-radius: 50px;
-    margin-left: 30px;
-    color: aqua;
-    margin-top: auto;
-    align-items: center;
-    background-size: cover;
-}
-
-.right{
-    font-size: 28px;
-    margin-left: 20px;
-    margin-top: 0px;
-    
-}
-
-
-
-.center{
-    margin-left: 630px;
-    margin-top: -250px;
-}
-
-
-/*        */
-.informationfinal{
-    display: flex;
-}
-
-.div1{
-    margin-left: 200px;
-}
-.div2{
-    margin-left: 200px;
-}
-
-.div3{
-    margin-left: 200px;
-}
-
-.div4{
-    margin-left: 200px;
-}
-
-/* قاع الصفحة */
-
-.youtube{
-    display: flex;
-}
-.link1{
-    margin-left: 80px;
-    font-size: 35px;
-   
-
-}
-.link2{
-    margin-left: 80px;
-    font-size: 35px;
-}
-.link3{
-    margin-left: 80px;
-    font-size: 35px;
-}
-.link4{
-    margin-left: 80px;
-    font-size: 35px;
-}
-.baybay{
-    font-size: 20px;
-    margin-left: 250px;
-}
-
-/* يلي سرقتو من القوقل */
-
-
-.third2{
-    display: flex;
-}
-
-.liftthird{
-    margin-left: 48%;
-    margin-top: -1310px;
-}
-/**/

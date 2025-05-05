@@ -7,14 +7,14 @@ body{
 
 
 .service{
-    margin-left: 40%;
+    margin-left: 36%;
    
 }
 
 
 .services{
     display: flex; 
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 100px;
 }
 
@@ -59,7 +59,7 @@ border-radius: 10px;
 
         display: flex;
         background-color: white;
-        margin-left: 300px;
+        margin-left: 170px;
         background-color: aliceblue;
         
         }
@@ -87,11 +87,10 @@ border-radius: 10px;
         
         
         .point{
-            margin-left: 840px;
+            margin-left: 700px;
         }
         
 
 
 
         /* التحكم في التنقل */
-        
