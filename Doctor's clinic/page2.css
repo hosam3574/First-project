@@ -1,0 +1,97 @@
+
+body{
+    background-color: aliceblue;
+}
+
+
+
+
+.service{
+    margin-left: 40%;
+   
+}
+
+
+.services{
+    display: flex; 
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+
+.service1{
+    background-color: white;
+    margin-left: 80px;
+    border-color: white;
+}
+
+
+.service1>img{
+    width: 100px;
+    border-radius: 60px;
+    z-index: 0;
+    margin-top: -30px;                    /*  ملاجظة انو لازم اغير صور الخدمات   */
+}
+
+
+.service2{
+
+    background-color:rgb(0, 132, 255) ;
+
+margin-left: 60px;
+border-radius: 10px;
+    }
+
+    .service2>img{
+        width: 100px;
+        border-radius: 60px;
+    border-color:rgb(0, 132, 255) ;
+    z-index: 0;
+    margin-top: -30px;
+
+    }
+
+
+
+
+    
+    .teams{
+
+        display: flex;
+        background-color: white;
+        margin-left: 300px;
+        background-color: aliceblue;
+        
+        }
+        
+        
+        .team1>img{
+        
+        width: 250px;
+        height: 250px;
+        z-index: 1;
+        
+        
+        }
+        .name1{
+            margin-left: 30px;
+        }
+        
+        .name2{
+            margin-left: 30px;
+        }
+        
+        .name3{
+            margin-left: 30px;
+        }
+        
+        
+        .point{
+            margin-left: 840px;
+        }
+        
+
+
+
+        /* التحكم في التنقل */
+        
