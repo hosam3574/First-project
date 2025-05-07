@@ -31,14 +31,23 @@ body{
         margin-top: -250px;
     }
     
+    /*  بدي احط لون ولرا المعلومات المشروع */
+
     
+        
+    
+
+
     /*        */
     .informationfinal{
         display: flex;
+       
+        color: white;
+       
     }
     
     .div1{
-        margin-left: 200px;
+        margin-left: 100px;
     }
     .div2{
         margin-left: 200px;
@@ -52,10 +61,22 @@ body{
         margin-left: 200px;
     }
     
+
+
+
     /* قاع الصفحة */
+    
+
+
+
+
+
+
     
     .youtube{
         display: flex;
+        
+        color: white;
     }
     .link1{
         margin-left: 80px;
@@ -80,17 +101,17 @@ body{
         margin-left: 250px;
     }
     
-    /* يلي سرقتو من القوقل */
+    /*  اشياء بنقدمها بلمركز */
     
     
     .third2{
         display: flex;
     }
     
-    .liftthird{
-        margin-left: 48%;
-        margin-top: -1310px;
-    }
+    
 
 
 
+.all{
+    background-color: midnightblue;
+}

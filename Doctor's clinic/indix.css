@@ -10,6 +10,7 @@ body{
 .heder{
     display: flex;
     margin-left: 50px;
+   
 }
 
 
@@ -32,14 +33,15 @@ body{
 
 
 .links{
-    margin-top: 40px;
-    margin-left: 40%;
+    margin-top: 30px;
+    margin-left: 45%;
+   color: white;
   
 }
 
 
 .links>:hover{
-    color: blue;
+    color: rgb(255, 102, 0);
 }
 
 
@@ -49,26 +51,39 @@ body{
 
 .links>a{
     direction: none ;
-    color:rgba(0, 0, 0, 0.712) ;
+   
     text-decoration: none;
+    color:  rgb(0, 132, 255) ;
+    
+}
+
+.linkzero{
+  margin-left: 0px;
 }
 
 
-.linktoo{
-    margin-left: 40px;
+.linkone{
+  margin-left: 90px;
+  color: rgb(0, 132, 255) ;
+  font-size:15px;
+}
 
+.linktoo{
+    margin-left: 90px;
+    font-size: 15px;
 }
 
 .bookbutton{
     
-    margin-left: 200px;
+    margin-left: 20px;
     border-radius: 70px;
     border: 5px;
     color: white;
     background-color: rgb(0, 132, 255);
     text-align: center;
     height: 50px;
-    width:250px;
+    width:210px;
+    
 }
 
  /*بدي ابلش عند يا مرحبا دكتور */
@@ -151,20 +166,72 @@ margin-left:40px ;
     font-size: 20px;
 }
 
-/*
-/*  Responsive Design  */
 
 
-/* الشاشات الصغيرة (تابلت وموبايل) 
-@media (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive Design  */
+
+
+@media (max-width: 430px) {
     .heder {
       flex-direction: column;
       align-items: center;
-      gap: 10px;
+      gap: 15px;
     }
   
     .hitphone {
-      margin-left: 0;
+      margin-left:5%;
       font-size: 30px;
       margin-top: 20px;
       text-align: center;
@@ -217,36 +284,13 @@ margin-left:40px ;
       width: 90%;
       font-size: 18px;
     }
-  }*/
+  }
   
-  /* الشاشات الصغيرة جدًا (موبايل أقل من 480px) 
-  @media (max-width: 480px) {
-    .hitphone {
-      font-size: 24px;
-    }
   
-    .bookbutton {
-      font-size: 16px;
-    }
-  
-    .button1,
-    .button2,
-    .button3 {
-      font-size: 16px;
-    }
-  
-    .introduction h1 {
-      font-size: 28px;
-    }
-  
-    .introduction p {
-      font-size: 14px;
-    }
-}*/
   
 
-  /* الشاشات الكبيرة جداً (أكبر من 1200px) 
-@media (min-width: 1963px) {
+   الشاشات الكبيرة جداً (أكبر من 1200px) 
+@media (min-width: 1963px){
     .heder {
       max-width: 1700px;
       margin: 0 auto;
@@ -288,5 +332,6 @@ margin-left:40px ;
       width: 300px;
       font-size: 22px;
     }
-  }*/
   
+  
+  }
